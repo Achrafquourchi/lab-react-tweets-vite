@@ -1,14 +1,13 @@
-function Tweet(props) {
 
-// const [name, image, handle, timestamp, message] = props;
-console.log(props)
-  
+
+function Tweet(props) {
+  // const [name, image, handle, timestamp, message] = props;
+  console.log(props);
+
   return (
     <div className="tweet">
-      <img src={props.tweet.user.image}
-        className="profile"
-        alt="profile"
-      />
+
+      <img src={props.tweet.user.image} className="profile" alt="profile" />
 
       <div className="body">
         <div className="top">

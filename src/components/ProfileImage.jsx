@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ProfileImage() {
-  return (
-    <div>ProfileImage</div>
-  )
+
+function ProfileImage(props) {
+
+  return <img src={props.tweet.user.image} className="profile" alt="profile" />;
 }
 
 export default ProfileImage
